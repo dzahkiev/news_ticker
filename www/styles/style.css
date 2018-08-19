@@ -1,0 +1,285 @@
+ 
+
+*{ margin:0;
+   padding:0;
+}
+
+body, head, html {
+	margin: 0;
+	padding:0;
+	width: 100%;
+   	height: 100%;
+ 	font-size: 14px;
+	font-family: Cambria; 
+   }
+
+
+#maket { 
+	background-color:#fff;
+	width:1000px;
+	margin: 0px auto;
+	padding:60px 0 0 0;
+	min-height:100%; 
+ 	  }
+  
+  
+
+a {
+	color:  #6C2861;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.table_admin{
+	background: #F9F5F9;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+.image_block_admin{
+	font-size: 22px;
+	color:#6C2861;
+	border:3px dashed #6C2861;
+	text-align: center;
+ 	padding: 50px; 
+ 	margin: 20px 20px 20px 0;
+}
+
+.tag {
+	color:#fff;
+ 	padding: 5px 15px;
+	background: #6C2861;
+ 	font-size: 14px;
+}
+
+.top_main{
+	background: #6C2861;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+ } 
+
+ .logo a{
+ 	color: #fff;
+ 	font-size: 40px;
+ 	float: left;
+ 	padding-right: 40px;
+
+ }
+
+ .top_menu{
+ 	width: 1000px; 
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	display: block;
+
+ }
+
+ .category {
+ 	float:left;
+ 	display: block;
+ 	padding: 5px 20px;
+ }
+
+ .category a{
+ 	color: #fff;
+ 	display: block;
+ }
+
+  .category a:hover{
+ 	color: #fff;
+ 	border-bottom: 5px solid #fff;
+ 	padding-bottom: 15px;
+ }
+
+ .search_box{
+ 	float: left;
+ 	padding-top:10px;
+ 	padding-left:30px;
+ 	vertical-align: middle;
+ }
+
+ .input_search_text{
+ 	background: rgba(255,255,255,0.8);
+ 	width: 120px;
+ 	height: 25px;
+ 	border: none;
+ 	color: #633;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ }
+.search_button{
+ 	background: rgba(255,255,255,1);
+ 	min-width: 40px;
+ 	min-height: 25px;
+ 	border: none;
+ 	color: #6C2861;
+ 	padding: 0 5px;
+ 	border-radius: 1px;
+ }
+
+ .news_item{
+ 	width: 40%;
+ 	margin:10px 0 10px 5%;
+ 	float: left;
+ 	padding: 5px;
+ }
+ .news_item_watch{
+  	margin:10px 0 10px 5%;
+ 	float: left;
+ 	padding: 20px 20px 30px 30px;
+ 	line-height: 1.4;
+ }
+
+.news_item_watch img{
+	width:600px;
+	float:right;
+	padding: 10px;
+}
+
+.news_item_watch_description{
+	color: #000;
+	font-size: 14px;
+	text-align: justify;
+	text-indent: 1.5em;
+ }
+
+.news_item_title a{
+	font-size: 18px;
+	color: #000;
+}
+.news_item_watch_title a{
+	font-size: 22px;
+	color: #000;
+}
+
+
+.news_item_time{
+	color: #808080;
+	font-size: 14px;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+.news_item img{
+	width: 100%;
+	background-position: center;
+	height: 250px;
+
+}
+
+.news_item_announce{
+	padding-top: 5px;
+	width: 100%;
+	height: 100px;
+	text-indent: 1.5em; 
+    text-align: justify;
+    color: #555;
+    font-weight: bold;
+	font-size: 14px;
+	font-style: italic;
+
+}
+.news_item_watch_announce{
+	padding-top: 5px;
+	text-indent: 1.5em; 
+    text-align: justify;
+    color: #333;
+    font-weight: bold;
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 10px;
+
+}
+ .button_style{
+ 	background: #6C2861;
+ 	min-width: 40px;
+ 	min-height: 25px;
+ 	border: 3px solid #6C2861;
+ 	border-radius: 20px;
+ 	margin: 5px;
+ }
+ .button_style a{
+ 	color: #fff;
+ 	padding: 0 5px;
+ 	
+ }
+
+ .page_number {
+ 	background: #fff;
+	display: inline-block;
+ 	border: 1px solid #6C2861;
+ 	color: #6C2861;
+ 	padding: 0px 3px;
+ 	border-radius: 5%;
+  } 
+
+  .page_number_visited{
+ 	background: #6C2861;
+	display: inline-block;
+ 	border: none;
+ 	color: #fff;
+ 	padding: 0px 3px;
+  }
+
+  .clearfix{
+  	clear: both;
+  }
+
+  .footer{
+  	margin-top: 50px;
+  	padding-top:20px;
+	background: #2b0b16;
+	color: #fff;
+	font-size: 16px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+
+  } 
+
+  .admin_form{
+  	border: 5px solid #6C2861;
+	color: #222; 
+	width: 250px;
+	padding: 40px;
+	margin: 50px auto;
+ 	font-size: 18px;
+	line-height: 15px;
+
+  }
+
+
+  .input_admin{
+  	padding: 10px 30px;
+  	background: #fff;
+  	color:#ddd;
+  	margin-bottom: 20px;
+  	font-size: 16px;
+  	border:5px solid #faf1f8;
+  	margin-top: 5px;
+  }
+
+  .button_admin_log{
+  	background: #faf1f8;
+  	border-radius: 10px;
+  	color: #444;
+  	padding: 5px 10px;
+  	border:5px solid #faf1f8;
+  }
+
+ .button_admin_log:hover{
+  	background: none;
+  	color:#000; 
+  	border:5px solid #6C2861;
+  }
+
+.admin_menu_link{
+	padding: 20px;
+}
+.admin_menu_link a{
+	font-size: 18px;
+	padding: 15px;
+}
+
